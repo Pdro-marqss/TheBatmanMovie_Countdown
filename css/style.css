@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans+Condensed:wght@300;700&display=swap');
+:root {
+    --main-red: #CD0817;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url(/images/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    color: var(--main-red);
+    font-family: 'Bebas Neue', 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+
+    user-select: none;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+
+    background-color: #00000080;
+}
+
+.logo {
+    width: 110px;
+    margin-top: -40px;
+}
+
+.title {
+    font-size: calc(10px + 2vw);
+    /* 10px = minimo de tamanho da fonte + 2vw máximo de scale */
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+
+.countdown {
+    width: 60vw;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.countdown h1 {
+    font-size: calc(16px + 7vw);
+    text-shadow: 0 0 15px var(--main-red);
+}
+
+.countdown p {
+    font-size: calc(18px + 0.2vw);
+}
+
+.button {
+    background-color: var(--main-red);
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    padding: 13px 10px;
+    cursor: pointer;
+    transition: padding .3s;
+    margin-top: 30px;
+}.button:hover {
+    box-shadow: 0 0 40px #97010e;
+    padding: 13px 35px;
+    transition: padding .3s;
+}
+
+.button a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+@media screen and (max-width:500px){
+    .title {
+        font-size: 28px;
+    }
+    .countdown {
+        width: 70vw;
+    }
+}
