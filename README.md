@@ -20,6 +20,7 @@ Projeto feito utilizando:
 >Gif do contador
 <br/>
 <br/>
-#### Print do mobile
+
+<h4>Print do mobile</h4>
 <img src="./images/resultadoMobile.jpg" width="300">
 
