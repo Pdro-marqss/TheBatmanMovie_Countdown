@@ -14,10 +14,9 @@ Projeto feito utilizando:
 - **JavaScript**
 
 -------------------
-<br>
+
 ### Resultado do contador
 ![Resultado final da versão desktop em GIF](./images/resultado.gif)
 >Gif do contador
 
-<br>
 ![Resultado final da versão mobile](./images/resultadoMobile.jpg)
