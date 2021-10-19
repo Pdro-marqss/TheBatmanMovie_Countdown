@@ -6,7 +6,7 @@
     <img src="./images/logo.png" width="300" >
 </div>
 
-Contador funcional que pega a data atual mais a de etreia do filme para mostrar o tempo restante até o lançamento. No layout também temos um botão **Watch the trailer** que abre uma nova aba direto para o trailer mais recente disponível.
+Contador funcional que usa a data atual e a de estreia do filme, para mostrar o tempo restante até o lançamento. No layout também temos um botão **Watch the trailer** que abre uma nova aba direto para o trailer mais recente disponível.
 
 Projeto feito utilizando:
 - **HTML**
@@ -14,9 +14,10 @@ Projeto feito utilizando:
 - **JavaScript**
 
 -------------------
-
+<br>
 ### Resultado do contador
 ![Resultado final da versão desktop em GIF](./images/resultado.gif)
 >Gif do contador
 
-![Resultado final da versão mobile](.images/resultadoMobile.jpg)
+<br>
+![Resultado final da versão mobile](./images/resultadoMobile.jpg)
