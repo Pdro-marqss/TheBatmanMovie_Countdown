@@ -19,4 +19,4 @@ Projeto feito utilizando:
 ![Resultado final da versão desktop em GIF](./images/resultado.gif)
 >Gif do contador
 
-![Resultado final da versão mobile](./images/resultadoMobile.jpg)
+<img src="./images/resultadoMobile.jpg" width="300">
